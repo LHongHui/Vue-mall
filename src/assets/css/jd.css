@@ -1,0 +1,48 @@
+@import 'reset.css';
+@import 'iconfont.css';
+
+/*公共样式*/
+body,html{
+	width:100%;
+	height:100%;
+}
+a{
+	color:#333;
+}
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.container .container-body{
+	
+	width:100%;
+	height: 100%;
+	padding-bottom: 60px;
+	
+}
+.container .footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:60px !important;
+	background: #fff;
+	box-shadow:0px 3px 14px 2px rgba(0,0,0,.12);
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.g-backtop-container {
+	position: absolute;
+	z-index: 10001;
+	right: 10px;
+	bottom: 100px !important;
+}
+
+.zindex{
+	z-index:10000000000!important;
+}
